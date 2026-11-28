@@ -1,0 +1,25 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Large offline dataset & legacy Colab archive (not required for Render runtime)
+Battery_ML/
+battery_artifacts.zip
+
+# Local scratch notes
+scratch/doc_text.txt
